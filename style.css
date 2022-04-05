@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Libre+Baskerville:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: burlywood;
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid black; */
+    
+}
+
+#temp{
+
+    width: 50px;
+}
+
+form{
+    background-color: #FFFF00;
+    padding: 40px;
+    text-align: center;
+    color: #FF0080;
+    width: 500px;
+    box-shadow: 1px 5px 10px rgb(40, 38, 38);
+    border-radius: 5px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 0% 15%;
+}
+
+#sub{
+    background-color: black;
+    color: #fff;
+    padding: 5px 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#resultContainer{
+    
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    font-weight: 200;
+    color: #478C5C;
+}
+
